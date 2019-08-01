@@ -8,6 +8,12 @@
 
 </head>
 <body>
+    
+    <dd_loader>
+		<div dd_onload></div>
+		<div dd_ajaxload></div>
+	</dd_loader>
+    
 	<header>
     </header>
 	<main id="page_<?php echo $page_link?>">

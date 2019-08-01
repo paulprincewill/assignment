@@ -1,4 +1,4 @@
-<form action="app/create/main" dd_submit="yes">
+<form action="app/create/main" dd_submit="yes" dd_bindResult="#code">
     
     <input type="text" name="title" placeholder="Enter Title Of Assignment">
     
