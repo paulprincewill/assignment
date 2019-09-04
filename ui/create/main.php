@@ -2,13 +2,26 @@
     
     <input type="text" name="title" placeholder="Enter Title Of Assignment">
     
-     <textarea name="instruction" placeholder="Details of Assignment"></textarea>
+     <textarea name="instruction" placeholder="Details of Assignment" rows="10"></textarea>
     
-    <label>Assignment Deadline:<input type="date" name="deadline" ></label>
+    <div class="extra_details">
+        
+        <p>
+            <label>Deadline</label>
+            <input type="date" name="deadline">
+        </p>
+        
+        <p>
+            <label>Total score</label>
+            <input type="number" name="score" placeholder="00">
+        </p>
+        
+    </div>
     
     
-    <input type="number" name="score" placeholder="Student's Score">
+    <div align="right">
+        <input type="submit">
+    </div>
     
-    <input type="submit">
     
 </form>

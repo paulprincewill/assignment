@@ -14,7 +14,7 @@
 
 	$db->sql("INSERT INTO assignments ( title, instruction, deadline, score, lecturer_id) VALUES ( '$title', '$inst', '$deadline', '$score', '$lecturer_id' ) ");
 
-	if( $db->isSuccessful ){
+	if( $db->isSuccessful ) {
 
 		$ass_id = $db->conn->insert_id;
 		$code = $title_preffix.$lecturer_id.$ass_id ;
@@ -22,13 +22,16 @@
 		$db->sql("UPDATE assignments SET code = '$code' WHERE id = '$ass_id' ");
 
 			if( $db->isSuccessful ){
-				$x['code'] =  $code ;				
+                $x['dd_success'] = true;
+				$x['dd_redirect'] =  "published?code=".$code;
 			}
+        
 			else{
 				echo $db->feedback;
 			}
 
 	}
+
 	else{
 		echo $db->feedback;
 	}

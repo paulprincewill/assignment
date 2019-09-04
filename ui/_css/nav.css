@@ -1,0 +1,45 @@
+#top_nav {
+    background: white;
+    padding: 0px 50px;
+    border-bottom: 1px solid #f5f5f5;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px #f5f5f5;
+}
+
+#top_nav a {
+    display: inline-block;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    width: 15%;
+    float:right
+}
+
+#top_nav a > span {
+    flex: 1;
+    margin: 10px
+}
+
+#side_nav {
+    position: fixed;
+    width: 10%;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: white;
+    border-right: 1px solid #f5f5f5;
+    box-shadow: 0px 0px 10px #f5f5f5;
+
+}
+
+#side_nav a {
+    display: block;
+    border-bottom: 1px solid #f5f5f5;
+    padding: 20px;
+    text-align: center
+}
+
+main {
+    margin: 5% 10% 5% 20%
+}

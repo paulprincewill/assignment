@@ -1,7 +1,4 @@
-function copyCode(){
-    dd("#copy").select();
-    document.execCommand("copy");
-}function dd_intialize() {
+function dd_intialize() {
     // Whatever instruction you want to run instantly after the page loads goes here
     console.log("This page is now active");
 }

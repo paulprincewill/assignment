@@ -1,3 +1,48 @@
-main {  
-	margin: 2% 10%;
+textarea, input[type='text'] {
+    font-size: 120%
 }
+/*
+
+form { 
+    display: none
+}
+*/
+
+
+form > div {
+    padding: 10px 50px
+}
+
+.extra_details {
+    display: flex
+}
+.extra_details > p {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 0px;
+    margin: 10px 20px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    overflow: hidden
+}
+
+.extra_details input {
+    border: 0px;
+    border-left: 1px solid #eee;
+    margin: 0px
+}
+
+.extra_details label {
+    font-size: 90%
+}
+
+.extra_details > p > * {
+    display: inline-block;
+    padding: 10px 
+}
+
+.extra_details input[type='number'] {
+    max-width: 70px
+}
+

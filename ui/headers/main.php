@@ -15,5 +15,34 @@
 	</dd_loader>
     
 	<header>
+        <nav id="top_nav" align="right">
+            
+            <a>
+                <span class="dd_longline"></span>
+                <img  class="dd_circle">
+            </a>
+            
+        </nav>
+        
+        <nav id="side_nav">
+            <a>
+               <img class="dd_circle">
+            </a>
+            
+            <a>
+                <img src='_assets/images/picture.svg' width='50'>
+                <span class="dd_longline"></span>
+            </a>
+            
+            <a>
+                <img src='_assets/images/picture.svg' width='50'>
+                <span class="dd_longline"></span>
+            </a>
+            
+            <a>
+                <img src='_assets/images/picture.svg' width='50'>
+                <span class="dd_longline"></span>
+            </a>
+        </nav>
     </header>
 	<main id="page_<?php echo $page_link?>">
